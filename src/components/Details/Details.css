@@ -1,0 +1,18 @@
+.details {
+    /* border: 1px;
+    border-style: dotted; */
+    /* background-color: #f3e5f5; */
+    margin:3%;
+    radius: 20px;
+}
+
+.genreTable{
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+}
+
+h4 {
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,6 +1,6 @@
 .movies {
     display : flex;
     flex-wrap: wrap;
-    padding: 1px;
-    margin: 1px;
+    /* align-content: center; */
+    justify-content: center;
 }

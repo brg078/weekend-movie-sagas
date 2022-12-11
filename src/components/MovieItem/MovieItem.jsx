@@ -1,6 +1,9 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
+import { Card } from '@mui/material';
+import './MovieItem.css'
+
 
 function MovieItem({movie}) {
 
@@ -18,10 +21,15 @@ function MovieItem({movie}) {
     }
 
     return (
-        <li>
+        <Card className='movieCard'
+            style={{
+            borderRadius: '5px',
+            backgroundColor: "#f3e5f5",
+            fontFamily: 'Roboto'
+        }}>
             <img src={movie.poster} alt={movie.title} onClick={item}/>
             <p>{movie.title}</p>
-        </li>
+        </Card>
     )
 }
 
