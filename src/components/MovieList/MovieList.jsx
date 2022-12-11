@@ -24,6 +24,7 @@ function MovieList() {
                     );
                 })}
             </section>
+            <h5>Click on any film for more information.</h5>
         </main>
 
     );

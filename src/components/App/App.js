@@ -19,6 +19,7 @@ function App() {
 
         {/* Add Movie page */}
       </Router>
+      <h6>BRG, WEEK 12 WEEKEND PROJECT</h6>
     </div>
   );
 }
